@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background-image: url('https://cdn.discordapp.com/attachments/269669626848215050/441904259827499020/pokemon-2.gif');
+    background-size:100%;
+    background-attachment: fixed;
+    height:100%;
+    width:100%;
+}
+
+.ui.footer.segment {
+    bottom:0;
+    position: absolute;
+    width: 100%;
+}
+
+.clock {
+    font-family: 'Tajawal', sans-serif;
+    font-size:90px;
+    font-weight: bold;
+    color: black;
+}
